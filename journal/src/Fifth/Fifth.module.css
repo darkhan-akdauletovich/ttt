@@ -1,0 +1,64 @@
+.fifth {
+    padding: 30px 0;
+}
+.fifthContainer {
+    padding: 0;
+}
+.fifthHeader {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+    margin: 0 0 11px 0;
+}
+.fifthFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+.fifthColumn {
+    height: 300px;
+    margin-right: 16px;
+}
+.fifthColumnDescr {
+    margin-bottom: 20px;
+}
+.fifthColumnTitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #505050;
+}
+.fifthColumnText {
+    font-size: 1.125rem;
+    line-height: normal;
+    margin: 0 0 7px;
+    margin-top: 22px;
+}
+.fifthLinks {
+    color: blue;   
+}
+.fifthLinks:hover {
+    text-decoration: underline;
+}
+.Fifthlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: max-content;
+    padding-right: 10px;
+}
+.fifthLinkView {
+    display: inline;
+    padding-top: 3px;
+    color: #505050;
+    font-size: 15px;
+    line-height: 1.2em;
+}
+#fifth {
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    padding: 0 2px;
+}

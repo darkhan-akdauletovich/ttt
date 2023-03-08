@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Fifth from './Fifth/Fifth';
+import Fourth from './Fourth/Fourth';
+import Header from './Header/Header';
+import Second from './Second/Second';
+import Third from './Third/Third';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edifff <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Second/>
+      <Third/>
+      <Fourth/>
+      <Fifth/>
     </div>
   );
 }
